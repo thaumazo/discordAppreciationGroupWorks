@@ -1,0 +1,11 @@
+{
+    "Card1": {
+      "name": "Invitation",
+      "image": "cards/Invitation.jpg"
+    },
+    "Card2": {
+      "name": "Emergence",
+      "image": "cards/Emergence.jpg"
+    }
+  }
+  
