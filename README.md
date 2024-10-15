@@ -1,36 +1,121 @@
+Let's update the README to include the full list of commands and the recent changes. Here's the updated version of the README with explanations for all current bot commands:
+
+---
+
 # Group Works Appreciation Bot
 
-**Group Works Appreciation Bot** is a Discord bot that allows users to send appreciation messages to each other using the **Group Works deck**. Users can tag someone, select a card from the deck, and send a personalized appreciation message. The bot posts the appreciation publicly in a channel, with the selected card and the personalized message, and also sends a direct message to the appreciated user.
+**Group Works Appreciation Bot** is a Discord bot that allows users to interact with the **Group Works deck** by listing categories, selecting cards, and sending appreciation messages. Users can tag someone, select a card from the deck, and send a personalized appreciation message. The bot posts the appreciation publicly in a channel and sends a direct message to the appreciated user.
 
 ---
 
 ## Features
 
-- Select a card from the Group Works deck and send an appreciation.
-- Tag a user in your server, along with a custom message, to show your appreciation.
-- Post the appreciation publicly in a specific channel (e.g., `#appreciations` or `#general`).
-- The recipient also receives a private direct message with the appreciation details.
-- Supports card images and rich embeds for visual presentation.
+- List categories from the Group Works deck.
+- List cards from specific categories.
+- Show the image and description of any card without sending appreciation.
+- Send appreciation to a tagged user with a custom message and card image.
+- Post the appreciation publicly and send a direct message to the recipient.
 
 ---
 
 ## How to Use
 
-After installing and running the bot, use the following command format to send appreciation:
+After installing and running the bot, you can use the following commands:
 
-```
-!appreciate @User CardName Custom Message
-```
+### Commands
 
-- `@User`: The user you want to appreciate (mention the user).
-- `CardName`: The name of the card from the Group Works deck (case-insensitive).
-- `Custom Message`: Your personalized message of appreciation.
+1. **List Categories**  
+   Use this command to list the names of available categories.
 
-### Example Command:
+   ```
+   !list_categories
+   ```
 
-```
-!appreciate @Daniel Lindenberger Emergence You're literally emerging things right now!
-```
+   - Example Response:  
+     ```
+     **Available Categories**:
+     1. Context
+     2. Faith
+     3. Intention
+     ```
+
+2. **Show Category Details**  
+   Use this command to get detailed information (description) about a specific category by its name or number.
+
+   ```
+   !category_info [number | name]
+   ```
+
+   - Example Usage:
+     ```
+     !category_info 1
+     !category_info Faith
+     ```
+
+   - Example Response:  
+     ```
+     **Faith**: Faith in the process and in the participants, providing a foundation for allowing the unknown to unfold.
+     ```
+
+3. **List Cards by Category**  
+   Use this command to list the cards in a specific category. You can use either the category's name or its number from the `!list_categories` command.
+
+   ```
+   !list_cards_by_category [number | name]
+   ```
+
+   - Example Usage:
+     ```
+     !list_cards_by_category 1
+     !list_cards_by_category Context
+     ```
+
+   - Example Response:  
+     ```
+     **Cards in 'Context'**:
+     1. Aesthetics of Space
+     2. All Grist for the Mill
+     ```
+
+4. **Show Card Image and Details**  
+   Use this command to show the image and description of a specific card without sending appreciation. You can reference the card by its name or number from the `!list_cards_by_category` command.
+
+   ```
+   !show_card [number | name]
+   ```
+
+   - Example Usage:
+     ```
+     !show_card 1
+     !show_card Aesthetics of Space
+     ```
+
+   - Example Response:  
+     The bot will display an embed with the card's image and "heart" description:
+     ```
+     **Aesthetics of Space**:
+     [Card image]
+     Gathering places that are beautiful, comfortable, functional, and creatively designed to serve the purpose of the meeting.
+     ```
+
+5. **Send Appreciation**  
+   Use this command to send an appreciation message to another user. You can select a card by name and add a custom message to the appreciation.
+
+   ```
+   !appreciate @User CardName Custom Message
+   ```
+
+   - `@User`: The user you want to appreciate (mention the user).
+   - `CardName`: The name of the card from the Group Works deck (case-insensitive).
+   - `Custom Message`: Your personalized message of appreciation.
+
+   - Example Command:
+     ```
+     !appreciate @Daniel Lindenberger Emergence You're literally emerging things right now!
+     ```
+
+   - Example Response:  
+     The bot will send an embed with the card's image and custom message to the `#general` or designated appreciation channel, and also send a direct message to the tagged user.
 
 ---
 
@@ -69,19 +154,27 @@ DISCORD_TOKEN=your_discord_bot_token_here
 Ensure you have the `cards.json` file and the corresponding images for each card in a `cards/` folder in the root directory. The `cards.json` should follow this format:
 
 ```json
-{
-  "Card1": {
-    "name": "Invitation",
-    "image": "cards/Invitation.jpg"
-  },
-  "Card2": {
-    "name": "Emergence",
-    "image": "cards/Emergence.jpg"
-  }
-}
+[
+    {
+        "name": "Aesthetics of Space",
+        "pic": "https://example.com/path_to_image.jpg",
+        "heart": "Gathering places that are beautiful, comfortable, functional, and creatively designed to serve the purpose of the meeting call forth participants' best life energy to contribute.",
+        "category": "Context"
+    },
+    {
+        "name": "Emergence",
+        "pic": "https://example.com/path_to_image2.jpg",
+        "heart": "In complex systems, patterns and order emerge unexpectedly. Stay present to notice the emergence and adapt accordingly.",
+        "category": "Process"
+    }
+]
 ```
 
-Each card should have a `name` (the card title) and an `image` (the relative path to the image file). The `cards/` folder should contain the corresponding images (e.g., `Invitation.jpg`, `Emergence.jpg`).
+Each card should have:
+- `name`: The title of the card.
+- `pic`: A publicly accessible URL to the image.
+- `heart`: The description or key message of the card.
+- `category`: The category to which the card belongs.
 
 ### 5. Enable Privileged Intents
 
@@ -150,4 +243,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ---
 
-That's the complete **README** with installation instructions! Be sure to adjust the repository name, `git` URLs, and any relevant details before publishing. Let me know if you'd like any further modifications or clarifications!
+That's the complete **README** with the latest command list and detailed instructions. Let me know if you'd like any additional tweaks or updates!
