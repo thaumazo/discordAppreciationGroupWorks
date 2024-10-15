@@ -1,11 +1,1346 @@
-{
-    "Card1": {
-      "name": "Invitation",
-      "image": "cards/Invitation.jpg"
+[
+    {
+        "name": "Aesthetics of Space",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/aesthetics_of.jpg",
+        "heart": "Gathering places that are beautiful, comfortable, functional, and creatively designed to serve the purpose of the meeting call forth participants' best life energy to contribute. Thoughtfully arrange the space and decor to inspire, focus, and sustain the group's work.",
+        "category": "Context",
+        "related": [
+            "Circle",
+            "Gaia",
+            "Hosting",
+            "Power of Constraints",
+            "Power of Place",
+            "Preparedness",
+            "Nooks in Space and Time"
+        ]
     },
-    "Card2": {
-      "name": "Emergence",
-      "image": "cards/Emergence.jpg"
+    {
+        "name": "All Grist for the Mill",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/all_grist.jpg",
+        "heart": "Play the ball where it lands. Handled well, everything that happens—mistakes, upsets, tangents, jokes, confusion—is potentially useful fodder for learning, surfacing truth, and community bonding.",
+        "category": "Faith",
+        "related": [
+            "Appreciation",
+            "Emergence",
+            "Letting Go",
+            "Feedback",
+            "Follow the Energy",
+            "Improvise",
+            "Balance Process and Content"
+        ]
+    },
+    {
+        "name": "Appreciation",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/appreciation.jpg",
+        "heart": "Enthusiasm and thankfulness are infectious, deepening trust and connection. Positive energy provides the most generative base for whatever comes next. Look for the good in what's happening and who people are, then work from there.",
+        "category": "Relationship",
+        "related": [
+            "Celebrate",
+            "Feedback",
+            "Good Faith Assumptions",
+            "Group Culture",
+            "Honour Each Person",
+            "Listening",
+            "Tend Relationships"
+        ]
+    },
+    {
+        "name": "Appropriate Boundaries",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/appropriate_boundaries.jpg",
+        "heart": "As stewards of the process, maintain safety and integrity of the container by drawing lines when needed. Compassionately acknowledge individual suffering to open the group heart, while reaffirming the group's purpose to keep it on track. Face membership questions with clarity and candour.",
+        "category": "Modelling",
+        "related": [
+            "Holding Space",
+            "Not about You",
+            "Priority Focus",
+            "Nooks in Space and Time",
+            "Witness with Compassion",
+            "Balance Process and Content",
+            "Follow the Energy"
+        ]
+    },
+    {
+        "name": "Balance Process and Content",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/balance_process.jpg",
+        "heart": "Content refers to what you are talking about and the results of a session. Process is how the conversation happens. Like two wings of a bird, both are needed for balance, lift, and progress.",
+        "category": "Flow",
+        "related": [
+            "Follow the Energy",
+            "Holding Space",
+            "Purpose",
+            "Transparency",
+            "Dwell with Emotions",
+            "Priority Focus",
+            "Go Meta"
+        ]
+    },
+    {
+        "name": "Balance Structure and Flexibility",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/balance_structure.jpg",
+        "heart": "Structures, such as a clear agenda, time limits, or raising hands before speaking, can create safety, focus, and a form for the group's energy to pour into. Yet to sustain the life of a group, this must be balanced with a great openness to change, dancing between the two as needed.",
+        "category": "Flow",
+        "related": [
+            "Divergence and Convergence Rhythm",
+            "Emergence",
+            "Follow the Energy",
+            "Holding Space",
+            "Improvise",
+            "Power of Constraints",
+            "Balance Process and Content"
+        ]
+    },
+    {
+        "name": "Breaking Bread Together",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/breaking_bread.jpg",
+        "heart": "Gathering over a meal is one of the most ancient forms of community process, as people sharing food appreciate each other at a profound level. Nourished bodies and relationships pave the way for better collaboration and higher quality work.",
+        "category": "Relationship",
+        "related": [
+            "Celebrate",
+            "Common Ground",
+            "Group Culture",
+            "Hosting",
+            "Rest",
+            "Ritual",
+            "Tend Relationships"
+        ]
+    },
+    {
+        "name": "Celebrate",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/celebrate.jpg",
+        "heart": "With joy and zest, publicly celebrate milestones and recurring events. Affirming shared history, we nourish community, crystallize a sense of accomplishment, and build group identity by unifying our stories and common goals. Can be planned and ritualized, or as spontaneous as a group cheer.",
+        "category": "Relationship",
+        "related": [
+            "Appreciation",
+            "Breaking Bread Together",
+            "Common Ground",
+            "Group Culture",
+            "Ritual",
+            "Story",
+            "Playfulness"
+        ]
+    },
+    {
+        "name": "Challenge",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/challenge.jpg",
+        "heart": "Challenging something—accepted wisdom, ideas, information, practices or ways of looking at things—provokes learning and new thinking, surmounts complacency and blind spots, and engenders creativity. It also invites us to reexamine our uncritical acceptance of convention and the status quo.",
+        "category": "Creativity",
+        "related": [
+            "All Grist for the Mill",
+            "Embrace Dissonance and Difference",
+            "Listening",
+            "Tend Relationships",
+            "Trust the Wisdom of the Group"
+        ]
+    },
+    {
+        "name": "Circle",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/circle.jpg",
+        "heart": "A Circle is a safe, solid, yet permeable space with an inside, an outside, and a focus that moves from person to person. A welcoming form where everyone can see each other and all voices are heard, it creates a field that invites sharing and story.",
+        "category": "Context",
+        "related": [
+            "Aesthetics of Space",
+            "Group Culture",
+            "Opening and Welcome",
+            "Power Shift",
+            "Shared Airtime",
+            "Shared Leadership and Roles",
+            "Holding Space"
+        ]
+    },
+    {
+        "name": "Closing",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/closing.jpg",
+        "heart": "The formal ritual that concludes the collective time and space by completing the cycle of a group process. Include everyone, acknowledge the end of the time together and mark the transition point, ushering in a shift to what follows.",
+        "category": "Flow",
+        "related": [
+            "Celebrate",
+            "Commitment",
+            "Feedback",
+            "Harvesting",
+            "Moving toward Alignment",
+            "Ritual",
+            "Divergence and Convergence Rhythm"
+        ]
+    },
+    {
+        "name": "Commitment",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/commitment.jpg",
+        "heart": "A group dedicated to its work persists through obstacles, distractions, and lulls. Remind yourselves of your larger purpose and what you really care about. As the group moves toward action, support effectiveness by getting clear on who will do what by when and how to ensure it really happens.\n ",
+        "category": "Intention",
+        "related": [
+            "Closing",
+            "Courageous Modelling",
+            "Honour Each Person",
+            "Purpose",
+            "Setting Intention",
+            "Shared Leadership and Roles",
+            "Taking Responsibility"
+        ]
+    },
+    {
+        "name": "Common Ground",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/common_ground.jpg",
+        "heart": "Consciously decide to give more attention to where we agree than where we don’t. By tuning in to what we share, we find the way to make progress together.",
+        "category": "Perspective",
+        "related": [
+            "Breaking Bread Together",
+            "Commitment",
+            "Moving toward Alignment",
+            "Not about You",
+            "Unity and Diversity",
+            "Good Faith Assumptions",
+            "Embrace Dissonance and Difference"
+        ]
+    },
+    {
+        "name": "Courageous Modelling",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/courageous_modelling.jpg",
+        "heart": "Someone needs to risk going first: to speak out, try a new behaviour, raise concerns, welcome feedback. Be honest, open, authentic, bold, and smart about it. You can catalyze forward movement by taking the lead to show others it can be done, and how.",
+        "category": "Modelling",
+        "related": [
+            "Feedback",
+            "Naming",
+            "Power Shift",
+            "Taking Responsibility",
+            "Transparency",
+            "Challenge",
+            "Dive In"
+        ]
+    },
+    {
+        "name": "Deliberate",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/deliberate.jpg",
+        "heart": "Take time to reflect on the issues at hand and make wise decisions. Done well, thinking things through together helps us understand a bigger picture, so we can deal capably and creatively with changing realities.\n ",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Letting Go",
+            "Go Deeper",
+            "Inform the Group Mind",
+            "Inquiry",
+            "Reflection-Action Cycle",
+            "Silence"
+        ]
+    },
+    {
+        "name": "Discharging",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/discharging.jpg",
+        "heart": "Blocked by frustration, anger, hurt, fear, or despair, we acknowledge and let go of what grips us in order to shift and move on. Tune in to discern whether to do this directly (such as making space in a meeting to express tough feelings), or indirectly through humour, breathing, or taking a walk.",
+        "category": "Modelling",
+        "related": [
+            "Dwell with Emotions",
+            "Embrace Dissonance and Difference",
+            "Witness with Compassion",
+            "Mirroring",
+            "Not about You",
+            "Self-Awareness",
+            "Challenge"
+        ]
+    },
+    {
+        "name": "Distilling",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/distilling.jpg",
+        "heart": "To keep a conversation or inquiry focused, regularly summarize and synthesize what has been said or learned. Articulate the common ground of meaning. Assess what it all adds up to. Distil elements to an essential, integrated whole.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Common Ground",
+            "Divergence and Convergence Rhythm",
+            "Harvesting",
+            "Inform the Group Mind",
+            "Mapping and Measurement",
+            "Moving toward Alignment",
+            "Naming"
+        ]
+    },
+    {
+        "name": "Dive In",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/dive_in.jpg",
+        "heart": "Sometimes, when the way ahead is a little murky, choosing to just begin and try things out is the best way to approach the challenge, task, or issue at hand. With a commitment to learning from whatever happens, Dive In to discover the path ahead.",
+        "category": "Faith",
+        "related": [
+            "Go Deeper",
+            "Improvise",
+            "Inquiry",
+            "Presence",
+            "Trajectory",
+            "All Grist for the Mill",
+            "Trust the Wisdom of the Group"
+        ]
+    },
+    {
+        "name": "Divergence and Convergence Rhythm",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/divergence_and.jpg",
+        "heart": "Diverging widens perspective, explores new terrain and opens up options. Converging coalesces collective wisdom in moving toward focused decisions, concrete outcomes, and the end of the session. Good group process naturally cycles between these two, so be thoughtful about which to engage when.",
+        "category": "Flow",
+        "related": [
+            "Generate Possibilities",
+            "Embrace Dissonance and Difference",
+            "Iteration",
+            "Moving toward Alignment",
+            "Trajectory",
+            "Seasoned Timing",
+            "Distilling"
+        ]
+    },
+    {
+        "name": "Dwell with Emotions",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/dwell_with.jpg",
+        "heart": "Let emotions be expressed and acknowledged, without jumping in to \"fix\" or change them. Explore strong feelings to find what drives the passion underneath them and ensure important values and perspectives aren't glossed over.",
+        "category": "Modelling",
+        "related": [
+            "Discharging",
+            "Witness with Compassion",
+            "Listening",
+            "Balance Process and Content",
+            "Presence"
+        ]
+    },
+    {
+        "name": "Embrace Dissonance and Difference",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/embrace_dissonance.jpg",
+        "heart": "Encourage your group to honour contradictory viewpoints, sitting with the uncertainty and ambiguity this brings. Acknowledge all perspectives as equally valid and explore them as fully as needed, especially when tensions are high and agreement seems far away.",
+        "category": "Perspective",
+        "related": [
+            "Common Ground",
+            "Go Deeper",
+            "Honour Each Person",
+            "Listening",
+            "Challenge",
+            "Tend Relationships",
+            "Good Faith Assumptions"
+        ]
+    },
+    {
+        "name": "Emergence",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/emergence.jpg",
+        "heart": "Welcome the spaces between rigid structure and unproductive chaos, numbing familiarity and paralyzing anxiety. To work with complexity as a generative cauldron, encourage flexibility, self-organization, and mutual discovery. Embracing what arises, the group gives birth to new insights and forms.",
+        "category": "Faith",
+        "related": [
+            "Letting Go",
+            "Follow the Energy",
+            "Inquiry",
+            "Presence",
+            "Trust the Wisdom of the Group",
+            "Value the Margins",
+            "Whole System in the Room"
+        ]
+    },
+    {
+        "name": "Experts on Tap",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/experts_on.jpg",
+        "heart": "Experts play excellent supporting roles, providing technical help and  judgements based on specific training. Respect their value as one resource to  draw on, while recognizing that ultimately as stakeholders we must empower ourselves, relying  on our own experience, values, and commitments to deliberate and make  decisions on the issues that affect us.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Inform the Group Mind",
+            "Inquiry",
+            "Power Shift",
+            "Shared Airtime",
+            "Shared Leadership and Roles",
+            "Whole System in the Room"
+        ]
+    },
+    {
+        "name": "Expressive Arts",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/expressive_arts.jpg",
+        "heart": "Linear discussion only takes us so far. For a more intuitive, holistic experience put on skits, write songs together, do art, listen to poetry, experiment with movement. The arts can move and teach us, inspire and engage, bringing a group to places we would never otherwise reach.",
+        "category": "Creativity",
+        "related": [
+            "Dive In",
+            "Go Deeper",
+            "Harvesting",
+            "Mode Choice",
+            "Playfulness",
+            "Group Culture",
+            "Story"
+        ]
+    },
+    {
+        "name": "Feedback",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/feedback.jpg",
+        "heart": "Feedback is offering and receiving information in various forms that enables adaptation and learning, both for individuals and the group as a whole. Feedback lets us know what's working and what's not, helping us stay on track for achieving our goals.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Appreciation",
+            "Follow the Energy",
+            "Listening",
+            "Mapping and Measurement",
+            "Mirroring",
+            "Harvesting"
+        ]
+    },
+    {
+        "name": "Follow the Energy",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/follow_the.jpg",
+        "heart": "What does the group really want in this moment? Let your observation of cues and \"vibes\" guide your response and steering of topics and process. Paying attention to where the life is, you help it flower.",
+        "category": "Flow",
+        "related": [
+            "Balance Structure and Flexibility",
+            "Emergence",
+            "Feedback",
+            "Improvise",
+            "Trust the Wisdom of the Group",
+            "Presence",
+            "Balance Process and Content"
+        ]
+    },
+    {
+        "name": "Fractal",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/fractal.jpg",
+        "heart": "Phenomena tend to repeat at a variety of scales. For example, a team dynamic manifests in the whole organization, or an issue arising during a planning session shows up at other times, too. Astute group members observe patterns at one level or time, and use these insights to make changes at another.",
+        "category": "Perspective",
+        "related": [
+            "Go Deeper",
+            "History and Context",
+            "Iteration",
+            "Seeing the Forest, Seeing the Trees",
+            "Subgroup and Whole Group",
+            "Whole System in the Room"
+        ]
+    },
+    {
+        "name": "Gaia",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/gaia.jpg",
+        "heart": "The presence of nature in group activities—through natural settings, altars, decorations, and more—provides grounding, beauty and inspiration. Nature gives perspective, letting us know we are one small part of a very large whole, always connected.",
+        "category": "Context",
+        "related": [
+            "Aesthetics of Space",
+            "Mode Choice",
+            "Power of Place",
+            "Rest",
+            "Silence",
+            "Nooks in Space and Time",
+            "Spirit"
+        ]
+    },
+    {
+        "name": "Generate Possibilities",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/generate_possibilities.jpg",
+        "heart": "Freedom and stimulation help creativity blossom. Climb out of the box! Shake things up with brainstorming, play, improvisation, art, and unusual questions. What is possible now? Invite an abundant flow.",
+        "category": "Creativity",
+        "related": [
+            "Divergence and Convergence Rhythm",
+            "Inquiry",
+            "Playfulness",
+            "Subgroup and Whole Group",
+            "Mode Choice",
+            "Viewpoint Shift",
+            "Power of Constraints"
+        ]
+    },
+    {
+        "name": "Go Deeper",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/go_deeper.jpg",
+        "heart": "Recognize and attend to what calls out for more intensive exploration. Take the time to unpack comments, drill down into issues, peel back the layers, delve further into underlying dynamics or feelings—in search of the crux of what matters most.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Courageous Modelling",
+            "Holding Space",
+            "Inquiry",
+            "Iteration",
+            "Listening",
+            "Seeing the Forest, Seeing the Trees",
+            "Subgroup and Whole Group"
+        ]
+    },
+    {
+        "name": "Go Meta",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/go_meta.jpg",
+        "heart": "Sometimes we benefit from changing to a wider lens of analysis:  from tactics to strategy, this year’s planning to a ten-year horizon, or from content to process reflection. If the current level of focus seems inadequate, consider shifting outward.\n ",
+        "category": "Perspective",
+        "related": [
+            "All Grist for the Mill",
+            "Fractal",
+            "History and Context",
+            "Purpose",
+            "Seeing the Forest, Seeing the Trees",
+            "Viewpoint Shift",
+            "Balance Process and Content"
+        ]
+    },
+    {
+        "name": "Good Faith Assumptions",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/good_faith.jpg",
+        "heart": "Assuming others' good intent increases trust and effectiveness. Instead of interpreting \"negative\" actions as attempts at manipulation, insult, or power-play, we choose to believe people are doing the best they can and look for underlying values or needs in common. Searching for a better story, we find or create one.",
+        "category": "Relationship",
+        "related": [
+            "Appreciation",
+            "Common Ground",
+            "Not about You",
+            "Setting Intention",
+            "Taking Responsibility",
+            "Witness with Compassion",
+            "Tend Relationships"
+        ]
+    },
+    {
+        "name": "Group Culture",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/group_culture.jpg",
+        "heart": "Groups tend to develop their own culture over time, based on knowledge, beliefs, practices and behaviours their members hold in common. Awareness of shared culture builds trust, cohesion, and a sense of safety among the members, thus furthering collaboration.",
+        "category": "Context",
+        "related": [
+            "Breaking Bread Together",
+            "Celebrate",
+            "History and Context",
+            "Ritual",
+            "Tend Relationships",
+            "Story",
+            "Unity and Diversity"
+        ]
+    },
+    {
+        "name": "Guerrilla Facilitation",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/guerrilla_facilitation.jpg",
+        "heart": "Guerilla Facilitation arises in gatherings with no formal leadership structures or when designated facilitators are inadequate or floundering. Any participant might sense how to advance a group's work by stepping up and constructively intervening in the moment.",
+        "category": "Modelling",
+        "related": [
+            "Courageous Modelling",
+            "Follow the Energy",
+            "Improvise",
+            "Priority Focus",
+            "Shared Leadership and Roles",
+            "Taking Responsibility",
+            "Trust the Wisdom of the Group"
+        ]
+    },
+    {
+        "name": "Harvesting",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/harvesting.jpg",
+        "heart": "When the process is complete, the harvest is what you hold in your hands. Collect and disseminate what has been said, done, debated, decided, left undecided, or agreed upon as next steps. Record the collective memory of the event.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Divergence and Convergence Rhythm",
+            "Mapping and Measurement",
+            "Mode Choice",
+            "Distilling",
+            "Unity and Diversity",
+            "Inform the Group Mind",
+            "Reflection-Action Cycle"
+        ]
+    },
+    {
+        "name": "History and Context",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/history_and.jpg",
+        "heart": "History and Context hugely influence how the rest of the patterns are invoked. Pay attention to why things are the way they are and what the people coming expect. Tune in to discern when to respect the existing culture vs. when it benefits to stretch toward something new.",
+        "category": "Context",
+        "related": [
+            "All Grist for the Mill",
+            "Group Culture",
+            "Naming",
+            "Opening and Welcome",
+            "Preparedness",
+            "Story",
+            "Viewpoint Shift"
+        ]
+    },
+    {
+        "name": "Holding Space",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/holding_space.jpg",
+        "heart": "Be fully present, aware of what's happening in the whole gathering right now—physically, energetically, emotionally, and intellectually. Open and hold the psychological and spiritual space to provide a steady centre and container. Calmly maintain trust, safety, and focus.",
+        "category": "Modelling",
+        "related": [
+            "Appropriate Boundaries",
+            "Embrace Dissonance and Difference",
+            "Opening and Welcome",
+            "Priority Focus",
+            "Balance Process and Content",
+            "Presence",
+            "Dwell with Emotions"
+        ]
+    },
+    {
+        "name": "Honour Each Person",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/honour_each.jpg",
+        "heart": "Respect each person's essential human dignity. View others' unique beliefs, approaches and concerns as a resource for group wisdom. Tolerate and even embrace idiosyncrasies, knowing that each person brings their gifts to the whole more fully when affirmed and appreciated.\n ",
+        "category": "Relationship",
+        "related": [
+            "Appreciation",
+            "Good Faith Assumptions",
+            "Listening",
+            "Mirroring",
+            "Shared Leadership and Roles",
+            "Tend Relationships",
+            "History and Context"
+        ]
+    },
+    {
+        "name": "Hosting",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/hosting.jpg",
+        "heart": "Help the session feel like home. Making a place and arrangements comfortable for everyone supports accomplishment of the group's work. Attend to the well-being of each person and the whole.",
+        "category": "Relationship",
+        "related": [
+            "Aesthetics of Space",
+            "Breaking Bread Together",
+            "Honour Each Person",
+            "Opening and Welcome",
+            "Preparedness",
+            "Group Culture",
+            "Rest"
+        ]
+    },
+    {
+        "name": "Improvise",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/improvise.jpg",
+        "heart": "For all our careful planning, sometimes circumstances call upon us to wing it. Ad lib. Extemporize. Spontaneously invent a new approach. Making it up as we go along may lead to unexpectedly desirable outcomes. Be open, and ready!",
+        "category": "Creativity",
+        "related": [
+            "Dive In",
+            "Letting Go",
+            "Follow the Energy",
+            "Presence",
+            "Seasoned Timing",
+            "Courageous Modelling",
+            "All Grist for the Mill"
+        ]
+    },
+    {
+        "name": "Inform the Group Mind",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/inform_the.jpg",
+        "heart": "We gather facts, feelings, and perspectives to reveal and deepen the group's awareness of itself and its world. The most helpful information comes from diverse sources and is accurate, relevant, accessible, and compelling.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Experts on Tap",
+            "Feedback",
+            "Harvesting",
+            "Inquiry",
+            "Mapping and Measurement",
+            "Distilling",
+            "Whole System in the Room"
+        ]
+    },
+    {
+        "name": "Inquiry",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/inquiry.jpg",
+        "heart": "Choose to cultivate a curious attitude. Great questions frame and provoke, opening us to new pathways. Many successful methods have questions at their core, such as: \"What's at the heart of the matter?\" and \"If you were czar, what would you do?\" So what's the most powerful question we could ask right now?",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Letting Go",
+            "Follow the Energy",
+            "Go Deeper",
+            "Inform the Group Mind",
+            "Deliberate",
+            "Story",
+            "Generate Possibilities"
+        ]
+    },
+    {
+        "name": "Invitation",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/invitation.jpg",
+        "heart": "Bring people together by expressing a clear call toward shared purpose, tuned to getting the right people into the room with shared intent. Let people know why this is important and what to expect, while requesting the honour of their presence.",
+        "category": "Intention",
+        "related": [
+            "Appropriate Boundaries",
+            "Common Ground",
+            "History and Context",
+            "Purpose",
+            "Whole System in the Room",
+            "Setting Intention",
+            "Tend Relationships"
+        ]
+    },
+    {
+        "name": "Iteration",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/iteration.jpg",
+        "heart": "Try it a second time, even a third. Outcomes of one round of activity or conversation inform the next, deepening, expanding, and generating new understandings and possibilities. For more powerful effect, repeat a process multiple times in the moment, or revisit at a later time.",
+        "category": "Flow",
+        "related": [
+            "Emergence",
+            "Feedback",
+            "Go Deeper",
+            "Inquiry",
+            "Reflection-Action Cycle",
+            "Trajectory",
+            "Divergence and Convergence Rhythm"
+        ]
+    },
+    {
+        "name": "Letting Go",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/letting_go.jpg",
+        "heart": "Release preconceived notions, your ego and your fears, to be fully open without attachment to outcome. As a clear channel, you allow whatever needs to come through in order to be of service to yourself, your group, and the world.",
+        "category": "Faith",
+        "related": [
+            "Gaia",
+            "Not about You",
+            "Rest",
+            "Silence",
+            "Spirit",
+            "Trust the Wisdom of the Group",
+            "Self-Awareness"
+        ]
+    },
+    {
+        "name": "Listening",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/listening.jpg",
+        "heart": "Listen from genuine curiosity, welcoming the expression of thoughts, opinions, and especially feelings. When we listen with our whole selves to more than the words, people feel heard and their energy moves into new channels, naturally weaving connection.",
+        "category": "Modelling",
+        "related": [
+            "Honour Each Person",
+            "Inquiry",
+            "Mirroring",
+            "Not about You",
+            "Presence",
+            "Witness with Compassion",
+            "Shared Airtime"
+        ]
+    },
+    {
+        "name": "Magic",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/magic.jpg",
+        "heart": "At certain moments, something beyond the group emerges, accompanied by a sense of awe . . . and resulting in a unanimous feeling of astonished accomplishment. Conditions inviting Magic include shared passion, urgency, openness, energy and trust—yet the quality is always mysterious, never guaranteed.",
+        "category": "Faith",
+        "related": [
+            "Emergence",
+            "Improvise",
+            "Presence",
+            "Purpose",
+            "Spirit",
+            "Whole System in the Room",
+            "Letting Go"
+        ]
+    },
+    {
+        "name": "Mapping and Measurement",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/mapping_and.jpg",
+        "heart": "Show the past, chart collated data, sketch what lies ahead. Skilful use of record-keeping, timelines, graphs, murals, videos, etc. directs our attention, helps us make sense of our experience, reinforces collective memory, and enables us to share group outcomes with people who weren't there.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Experts on Tap",
+            "Harvesting",
+            "Inform the Group Mind",
+            "Mode Choice",
+            "Preparedness",
+            "Reflection-Action Cycle",
+            "Distilling"
+        ]
+    },
+    {
+        "name": "Mirroring",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/mirroring.jpg",
+        "heart": "Empathically reflect back the essence of what someone has said so the speaker feels heard, genuinely acknowledged and appreciated. Honouring people’s gifts can heal individuals and relationships, unblock stuck places, and get energy flowing again.",
+        "category": "Modelling",
+        "related": [
+            "Good Faith Assumptions",
+            "Listening",
+            "Not about You",
+            "Distilling",
+            "Witness with Compassion"
+        ]
+    },
+    {
+        "name": "Mode Choice",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/mode_choice.jpg",
+        "heart": "Rather than default to general discussion, consider what mode of interaction—visual, auditory or kinaesthetic, formal or informal, a dialogue circle or a roleplay—is the best fit to support the group in reaching its intention. Strategically shifting formats energizes participants, accesses different ways of knowing, and advances the work.",
+        "category": "Creativity",
+        "related": [
+            "Expressive Arts",
+            "Playfulness",
+            "Shared Airtime",
+            "Subgroup and Whole Group",
+            "Viewpoint Shift",
+            "Group Culture",
+            "Dive In"
+        ]
+    },
+    {
+        "name": "Moving toward Alignment",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/moving_toward.jpg",
+        "heart": "To act jointly, we journey from disparate places to a coherent, collective sense of what is real, what we desire, and what we will do to accomplish it. Group alignment emerges through conversations that generate shared stories, understandings, and decisions.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Common Ground",
+            "Divergence and Convergence Rhythm",
+            "Letting Go",
+            "Setting Intention",
+            "Distilling",
+            "Trajectory",
+            "Commitment"
+        ]
+    },
+    {
+        "name": "Naming",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/naming.jpg",
+        "heart": "Call it out, stating directly what is perceived. Naming functions to birth things not yet recognized by the group, sometimes things that are taboo. Akin to an alchemical process, to name can be to transform, and brings change in its wake.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Courageous Modelling",
+            "Listening",
+            "Not about You",
+            "Power Shift",
+            "Seasoned Timing",
+            "Transparency"
+        ]
+    },
+    {
+        "name": "Nooks in Space and Time",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/nooks_in.jpg",
+        "heart": "Incubate creativity and nurture relationships by encouraging unstructured time and semi-private space. Insight arises fruitfully during times of open-ended conversation or in solo musing at the edges of a group. Can be designed ahead, or may arise in the moment.",
+        "category": "Context",
+        "related": [
+            "Go Deeper",
+            "Embrace Dissonance and Difference",
+            "Inform the Group Mind",
+            "Subgroup and Whole Group",
+            "Value the Margins",
+            "Aesthetics of Space"
+        ]
+    },
+    {
+        "name": "Not about You",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/not_about.jpg",
+        "heart": "Don’t take things personally. Separate what is said or suggested from the person who said it. Leave the baggage of interpersonal relationships and disagreements at the door to consider ideas on their own merits. Work on the same side, together against the problem or challenge.",
+        "category": "Modelling",
+        "related": [
+            "Common Ground",
+            "Letting Go",
+            "Good Faith Assumptions",
+            "Listening",
+            "Tend Relationships",
+            "Witness with Compassion"
+        ]
+    },
+    {
+        "name": "Opening and Welcome",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/opening_and.jpg",
+        "heart": "The beginning sets the tone. Start intentionally, in a manner that invites group members to connect with one another, enter their voice into the circle, and participate as their authentic selves. Attend to building enthusiasm, focus, and commitment for the work to come.",
+        "category": "Flow",
+        "related": [
+            "Aesthetics of Space",
+            "Group Culture",
+            "Hosting",
+            "Purpose",
+            "Story",
+            "History and Context",
+            "Setting Intention"
+        ]
+    },
+    {
+        "name": "Playfulness",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/playfulness.jpg",
+        "heart": "Invite light-hearted and high-spirited interaction to exercise mind, senses, imagination and body, to engender creativity, and deepen relationships. Playfulness may be evoked through structured but fun ways to engage relevant topics, or restorative breaks that allow laughter free reign, or may simply show up as humour.",
+        "category": "Creativity",
+        "related": [
+            "Dive In",
+            "Expressive Arts",
+            "Follow the Energy",
+            "Improvise",
+            "Mode Choice",
+            "Rest"
+        ]
+    },
+    {
+        "name": "Power of Constraints",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/power_of_constraints.jpg",
+        "heart": "Embrace limitations and boundaries as a source of inspiration. Appreciating the obstacles helps you see more fully how to overcome or adapt to them. Accepting constraints, they can morph into useful forms that open up new possibilities, spurring creativity.",
+        "category": "Creativity",
+        "related": [
+            "All Grist for the Mill",
+            "Letting Go",
+            "Generate Possibilities",
+            "Improvise",
+            "Inquiry",
+            "Taking Responsibility",
+            "Viewpoint Shift"
+        ]
+    },
+    {
+        "name": "Power of Place",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/power_of_place.jpg",
+        "heart": "The location, setting, and beauty of the site for an event have a major impact on the group's energy, attentiveness, and ability to connect. Do your best to choose a place that is the right fit and expression for your intention.",
+        "category": "Context",
+        "related": [
+            "Aesthetics of Space",
+            "Gaia",
+            "Group Culture",
+            "History and Context",
+            "Hosting",
+            "Purpose",
+            "Nooks in Space and Time"
+        ]
+    },
+    {
+        "name": "Power Shift",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/power_shift.jpg",
+        "heart": "Critical awareness and transparency around existing power differences can, if held well, allow the group to adapt authority structures to best reflect their values or serve their aims. Sharing power isn't always easy, but the rewards for groups who do so can be profound.",
+        "category": "Relationship",
+        "related": [
+            "Circle",
+            "Naming",
+            "Shared Airtime",
+            "Shared Leadership and Roles",
+            "Transparency",
+            "Value the Margins",
+            "Challenge"
+        ]
+    },
+    {
+        "name": "Preparedness",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/preparedness.jpg",
+        "heart": "Anticipate what might happen and be ready for it. Do this both before the event, and in your ongoing alert attention. Think through how the agenda will unfold, and do what you can to ensure the right people and resources are present.",
+        "category": "Flow",
+        "related": [
+            "Experts on Tap",
+            "History and Context",
+            "Hosting",
+            "Purpose",
+            "Trajectory"
+        ]
+    },
+    {
+        "name": "Presence",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/presence.jpg",
+        "heart": "Bring your full being to this very moment. Offering total attention, and deep listening, you are wholly open and connected with the here and now. From this grounded place love and service flow.",
+        "category": "Faith",
+        "related": [
+            "Letting Go",
+            "Follow the Energy",
+            "Holding Space",
+            "Listening",
+            "Opening and Welcome",
+            "Spirit",
+            "Self-Awareness"
+        ]
+    },
+    {
+        "name": "Priority Focus",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/priority_focus.jpg",
+        "heart": "Guide the group's energies, pace, and trajectory appropriately to achieve the stated intention and purpose. Help the group set and stick to priorities, recognizing that what's most important to the group sometimes shifts.",
+        "category": "Intention",
+        "related": [
+            "Appropriate Boundaries",
+            "Holding Space",
+            "Moving toward Alignment",
+            "Purpose",
+            "Setting Intention",
+            "Trajectory",
+            "Balance Process and Content"
+        ]
+    },
+    {
+        "name": "Purpose",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/purpose.jpg",
+        "heart": "Purpose is the destination we choose from a sea of possibilities. Shared purpose calls us together and focuses us, evolving as understanding deepens. It gives impetus and energy to our work—when we're connected with genuine purpose, energy flows and things happen.",
+        "category": "Intention",
+        "related": [
+            "Common Ground",
+            "Holding Space",
+            "Priority Focus",
+            "Setting Intention",
+            "Seeing the Forest, Seeing the Trees",
+            "Commitment",
+            "Spirit"
+        ]
+    },
+    {
+        "name": "Reflection-Action Cycle",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/reflection_action.jpg",
+        "heart": "Consider. Enact. Debrief. Experiment further. Effective processes that move groups forward often involve cycles of reflection, followed by action, leading to additional reflection, and so on. Alternating in this manner fosters engagement and integration, deepens experiential learning, and promotes adaptive problem-solving.",
+        "category": "Flow",
+        "related": [
+            "Feedback",
+            "Inquiry",
+            "Iteration",
+            "Mapping and Measurement",
+            "Deliberate",
+            "Distilling",
+            "Trajectory"
+        ]
+    },
+    {
+        "name": "Rest",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/rest.jpg",
+        "heart": "Create unscheduled times for rest, reflection, integration, and nurturing important social connections. Building sufficient \"down time\" into group process yields better overall results, as participants return to group sessions renewed and often with new insights and ideas.",
+        "category": "Flow",
+        "related": [
+            "Breaking Bread Together",
+            "Follow the Energy",
+            "Gaia",
+            "Hosting",
+            "Nooks in Space and Time",
+            "Reflection-Action Cycle",
+            "Silence"
+        ]
+    },
+    {
+        "name": "Right Size Bite",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/right_size.jpg",
+        "heart": "Break tasks, processes, and content to be absorbed into chunks that are an appropriate match for the time and people you have. Tackle complex topics and larger goals piece by piece.",
+        "category": "Flow",
+        "related": [
+            "Fractal",
+            "Power of Constraints",
+            "Priority Focus",
+            "Seeing the Forest, Seeing the Trees",
+            "Subgroup and Whole Group",
+            "Preparedness",
+            "Trajectory"
+        ]
+    },
+    {
+        "name": "Ritual",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/ritual.jpg",
+        "heart": "Ceremony is primal; it grounds, connects, and deeply nourishes group spirit. Use it to mark opening, transition, cycles, milestones, or closing. Ritual is also the formal or habitual repetition of intentional practices that have proven their value.",
+        "category": "Flow",
+        "related": [
+            "Breaking Bread Together",
+            "Celebrate",
+            "Closing",
+            "Gaia",
+            "Opening and Welcome",
+            "Spirit",
+            "Mode Choice"
+        ]
+    },
+    {
+        "name": "Seasoned Timing",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/seasoned_timing.jpg",
+        "heart": "When is the right time to propose an idea, switch processes, end discussion, challenge someone to go deeper, or bring in an outside expert or facilitator? Sense the timing of things to swim with the flow, instead of against it. Be patient and alert for ripeness. When the time is right, act.",
+        "category": "Flow",
+        "related": [
+            "Divergence and Convergence Rhythm",
+            "Feedback",
+            "Follow the Energy",
+            "Holding Space",
+            "Priority Focus",
+            "Trajectory",
+            "Balance Process and Content"
+        ]
+    },
+    {
+        "name": "Seeing the Forest, Seeing the Trees",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/seeing_the.jpg",
+        "heart": "Shepherding a group discussion includes discerning when the group needs a wider view vs. when to sink down into the details. Zoom out to see vision, patterns, and overall trends; zoom in for examples, specific data, and other particulars.",
+        "category": "Perspective",
+        "related": [
+            "Fractal",
+            "Go Deeper",
+            "Go Meta",
+            "Subgroup and Whole Group",
+            "Viewpoint Shift",
+            "Divergence and Convergence Rhythm",
+            "Right Size Bite"
+        ]
+    },
+    {
+        "name": "Self-Awareness",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/self-awareness.jpg",
+        "heart": "The more you know who you and your group really are, the more effectively you can engage, make choices that are the right fit, and achieve your goals. Discover your values, feelings, dreams, needs, biases, and more.",
+        "category": "Modelling",
+        "related": [
+            "Feedback",
+            "History and Context",
+            "Mirroring",
+            "Not about You",
+            "Presence",
+            "Reflection-Action Cycle",
+            "Transparency"
+        ]
+    },
+    {
+        "name": "Setting Intention",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/setting_intention.jpg",
+        "heart": "Envision and name what will be done to reach toward or achieve the purpose of the group. Setting Intention reminds us of our responsibilities, guiding us to actions that fulfill the reason for which a gathering was called.",
+        "category": "Intention",
+        "related": [
+            "Commitment",
+            "Holding Space",
+            "Invitation",
+            "Opening and Welcome",
+            "Priority Focus",
+            "Purpose",
+            "Ritual"
+        ]
+    },
+    {
+        "name": "Shared Airtime",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/shared_airtime.jpg",
+        "heart": "Everyone deserves to be heard, and everyone has a piece of the truth. Find ways to invite sharing from all, not just the loudest, most senior or most articulate. Actively draw out the wisdom of quieter or hesitant participants.",
+        "category": "Relationship",
+        "related": [
+            "Balance Structure and Flexibility",
+            "Circle",
+            "Holding Space",
+            "Honour Each Person",
+            "Listening",
+            "Subgroup and Whole Group",
+            "Value the Margins"
+        ]
+    },
+    {
+        "name": "Shared Leadership and Roles",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/shared_leadership.jpg",
+        "heart": "Rotate facilitators. Trade off note-taking. Let a voice at the margin take centre stage. Sharing responsibility increases participation and investment, taps the gifts of all group members, and leads to better results. Nurture equity and empowerment by sharing power, skills, and collective care for the whole.",
+        "category": "Modelling",
+        "related": [
+            "Appreciation",
+            "Experts on Tap",
+            "Mode Choice",
+            "Power Shift",
+            "Purpose",
+            "Subgroup and Whole Group",
+            "Whole System in the Room"
+        ]
+    },
+    {
+        "name": "Silence",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/silence.jpg",
+        "heart": "The rests between notes make the music. Take a quiet moment to tune into yourself or the group. Invite Silence to slow the process, make space for questions, transition, or simply deepen.",
+        "category": "Faith",
+        "related": [
+            "Letting Go",
+            "Go Deeper",
+            "Listening",
+            "Rest",
+            "Nooks in Space and Time",
+            "Spirit"
+        ]
+    },
+    {
+        "name": "Simplify",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/simplicity.jpg",
+        "heart": "\nA simple process allows you to stay focused on your purpose. A clear understanding of your purpose allows you to do what is needed, no more, no less. Include only the details that are significant, so participants will understand what is and is not important.",
+        "category": "Modelling",
+        "related": [
+            "Circle",
+            "Letting Go",
+            "Preparedness",
+            "Presence",
+            "Purpose",
+            "Silence",
+            "Distilling"
+        ]
+    },
+    {
+        "name": "Spirit",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/spirit.jpg",
+        "heart": "To work with Spirit is to invite the deeper forces of the universe to be with us as co-creators. Bringing in this wider perspective keeps us in touch with what's most important and provides wisdom, inspiration, and support.",
+        "category": "Faith",
+        "related": [
+            "Magic",
+            "Ritual",
+            "Silence",
+            "Emergence",
+            "Gaia",
+            "Presence",
+            "Letting Go"
+        ]
+    },
+    {
+        "name": "Story",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/story.jpg",
+        "heart": "Stories, metaphors, and myths convey complex ideas, context, meaning and nuance that simple data cannot. By telling personal stories we build trust and connection, encourage imagination, and express the essence of who we are. By telling cultural stories we connect ourselves to others’ experience and interact with whole systems.",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Group Culture",
+            "Inform the Group Mind",
+            "Mode Choice",
+            "Opening and Welcome",
+            "Shared Airtime",
+            "Expressive Arts",
+            "Yes, and"
+        ]
+    },
+    {
+        "name": "Subgroup and Whole Group",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/subgroup_and.jpg",
+        "heart": " \nSmall subgroups are ideal for involving all participants, accomplishing specific tasks, and creating a safer space for sharing. Convening in the whole group provides context, meaning and convergence at critical junctures. Strategically shift between the two to take advantage of their complementary natures.\n\n ",
+        "category": "Flow",
+        "related": [
+            "Common Ground",
+            "Mode Choice",
+            "Seeing the Forest, Seeing the Trees",
+            "Shared Airtime",
+            "Nooks in Space and Time",
+            "Unity and Diversity"
+        ]
+    },
+    {
+        "name": "Taking Responsibility",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/take_responsibility.jpg",
+        "heart": "Taking Responsibility keeps a group connected with its own power, both collectively and individually.  Regardless of who did what, when, let us ask, \"What can we do here and now?\"  And, if you see something that needs doing, step up!",
+        "category": "Modelling",
+        "related": [
+            "Letting Go",
+            "Good Faith Assumptions",
+            "Guerrilla Facilitation",
+            "Embrace Dissonance and Difference",
+            "Setting Intention",
+            "Commitment",
+            "Shared Leadership and Roles"
+        ]
+    },
+    {
+        "name": "Tend Relationships",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/tend_relationships.jpg",
+        "heart": "We take care of each other to reach the goals we are striving for—to get there in one piece, together. Balancing a focus on task and product with nurturing relations between people sustains organizations and movements for the long haul.",
+        "category": "Relationship",
+        "related": [
+            "Appreciation",
+            "Breaking Bread Together",
+            "Honour Each Person",
+            "Listening",
+            "Mirroring",
+            "Witness with Compassion",
+            "Good Faith Assumptions"
+        ]
+    },
+    {
+        "name": "Time Shift",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/time_shift.jpg",
+        "heart": "Invite people to consider events and possibilities from the vantage point of either the past or the future, in order to change assumptions about what is possible in the present.",
+        "category": "Perspective",
+        "related": [
+            "History and Context",
+            "Seeing the Forest, Seeing the Trees",
+            "Story",
+            "Viewpoint Shift",
+            "Inform the Group Mind",
+            "Expressive Arts"
+        ]
+    },
+    {
+        "name": "Trajectory",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/trajectory.jpg",
+        "heart": "Group work is a collective journey. How long will it take, and what will be the shape of the path? Consider what happens before, and after. Structure agendas in light of anticipated stages, choosing activities that align with each phase. Complete the arc to arrive at your desired destination.",
+        "category": "Flow",
+        "related": [
+            "Balance Structure and Flexibility",
+            "Divergence and Convergence Rhythm",
+            "Iteration",
+            "Purpose",
+            "Reflection-Action Cycle",
+            "Right Size Bite",
+            "Seeing the Forest, Seeing the Trees"
+        ]
+    },
+    {
+        "name": "Translation",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/translation.jpg",
+        "heart": "Translation forms a bridge of understanding from one person or group to another. Overcome barriers of difference in social standing, culture, language, life experience, or communication style by using neutral wording, metaphor, story, or otherwise converting something into terms others can more easily grasp.",
+        "category": "Perspective",
+        "related": [
+            "Good Faith Assumptions",
+            "Honour Each Person",
+            "Inform the Group Mind",
+            "Listening",
+            "Mirroring",
+            "Value the Margins",
+            "Viewpoint Shift"
+        ]
+    },
+    {
+        "name": "Transparency",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/transparency.jpg",
+        "heart": "Be open about what's real:  feelings, experiences, how decisions get made, finances, and more. Transparency arises from a belief that the free flow of information and taking action in direct and honest ways best serves group needs. Handled well, openness nurtures trust, collaboration, and authentic community.",
+        "category": "Relationship",
+        "related": [
+            "Inform the Group Mind",
+            "Naming",
+            "Power Shift",
+            "Shared Leadership and Roles",
+            "Taking Responsibility",
+            "Self-Awareness",
+            "Courageous Modelling"
+        ]
+    },
+    {
+        "name": "Trust the Wisdom of the Group",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/trust_the.jpg",
+        "heart": "When the path is uncertain, seek intelligence, intuition, and direction from the collective. No matter the problem, with patience and good listening a group usually generates the needed solution, options, or route forward.",
+        "category": "Faith",
+        "related": [
+            "Emergence",
+            "Letting Go",
+            "Follow the Energy",
+            "Inquiry",
+            "Presence",
+            "Whole System in the Room"
+        ]
+    },
+    {
+        "name": "Unity and Diversity",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/unity_and.jpg",
+        "heart": "Hold simultaneous awareness of both what is shared in common and what is unique. Sometimes it is more important to honour the distinctions and hear the differences; other times it is crucial to focus on similarities and common territory. Both are needed.",
+        "category": "Perspective",
+        "related": [
+            "Common Ground",
+            "Divergence and Convergence Rhythm",
+            "Embrace Dissonance and Difference",
+            "Honour Each Person",
+            "Moving toward Alignment",
+            "Subgroup and Whole Group",
+            "Value the Margins"
+        ]
+    },
+    {
+        "name": "Value the Margins",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/value_the.jpg",
+        "heart": "Edges of ecosystems are fertile ground for adaptation. Similarly in group dynamics, growth often comes from generative disturbances at the margins, perhaps from participants less invested in the status quo. Welcome and embrace people and ideas that may at first seem alien.",
+        "category": "Perspective",
+        "related": [
+            "Embrace Dissonance and Difference",
+            "Honour Each Person",
+            "Listening",
+            "Translation",
+            "Challenge",
+            "Whole System in the Room",
+            "Unity and Diversity"
+        ]
+    },
+    {
+        "name": "Viewpoint Shift",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/viewpoint_shift.jpg",
+        "heart": "Step from your usual perspective into another, in order to better understand someone, shift energy, reframe meanings, open up new ideas, or simply see a situation with new eyes.",
+        "category": "Perspective",
+        "related": [
+            "Expressive Arts",
+            "Go Meta",
+            "Embrace Dissonance and Difference",
+            "Story",
+            "Value the Margins",
+            "Witness with Compassion",
+            "Time Shift"
+        ]
+    },
+    {
+        "name": "Whole System in the Room",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/whole_system.jpg",
+        "heart": "A critical mass of diverse stakeholders working together helps the whole system adapt and learn more effectively. Spark transformative change by gathering a cross-section of the organization or community to coordinate visioning, innovate novel solutions, make more informed choices and motivate quick implementation.",
+        "category": "Context",
+        "related": [
+            "Common Ground",
+            "History and Context",
+            "Inform the Group Mind",
+            "Invitation",
+            "Preparedness",
+            "Subgroup and Whole Group",
+            "Viewpoint Shift"
+        ]
+    },
+    {
+        "name": "Witness with Compassion",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/witness_with.jpg",
+        "heart": "Grounded in your heart, offer gentle observations free of judgement. With kindness and presence, place attention on what you notice happening, rather than your reaction to it.",
+        "category": "Modelling",
+        "related": [
+            "Listening",
+            "Mirroring",
+            "Not about You",
+            "Presence",
+            "Story",
+            "Dwell with Emotions",
+            "Holding Space"
+        ]
+    },
+    {
+        "name": "Yes, and",
+        "pic": "https://groupworksdeck.org/sites/default/files/upload/cards/yes_and.jpg",
+        "heart": "Build on what someone just said to offer encouragement and carry it further. Affirm their ideas, then extend them to a deeper understanding or add a new twist. Create momentum by saying \"Yes, and . . .\"",
+        "category": "Inquiry & Synthesis",
+        "related": [
+            "Moving toward Alignment",
+            "Go Deeper",
+            "Distilling",
+            "Follow the Energy",
+            "Listening",
+            "Deliberate"
+        ]
     }
-  }
-  
+]
