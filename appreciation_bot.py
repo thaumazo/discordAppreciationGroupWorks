@@ -31,13 +31,21 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 async def on_ready():
     print(f'{bot.user} has connected to Discord!')
 
-# Command to list category names with numbers
+# Function to get or create the #appreciations channel
+async def get_or_create_appreciations_channel(guild):
+    appreciation_channel = discord.utils.get(guild.text_channels, name="appreciations")
+    if appreciation_channel is None:
+        # Create the #appreciations channel
+        appreciation_channel = await guild.create_text_channel("appreciations")
+    return appreciation_channel
+
+# Command to list category names with numbers (sent to private DM)
 @bot.command(name='list_categories')
 async def list_categories(ctx):
     category_list = "\n".join([f"{index + 1}. {category['name']}" for index, category in enumerate(categories)])
-    await ctx.send(f"**Available Categories**:\n{category_list}")
+    await ctx.author.send(f"**Available Categories**:\n{category_list}")
 
-# Command to get details of a specific category by number or name
+# Command to get details of a specific category by number or name (sent to private DM)
 @bot.command(name='category_info')
 async def category_info(ctx, identifier: str):
     # If the identifier is a number, fetch by index
@@ -46,7 +54,7 @@ async def category_info(ctx, identifier: str):
         if 0 <= index < len(categories):
             category = categories[index]
         else:
-            await ctx.send("Invalid category number. Please select a valid number from the list.")
+            await ctx.author.send("Invalid category number. Please select a valid number from the list.")
             return
     # If the identifier is not a number, assume it's a category name
     else:
@@ -54,13 +62,13 @@ async def category_info(ctx, identifier: str):
         category = next((cat for cat in categories if cat['name'].strip().lower() == normalized_category_name), None)
 
         if not category:
-            await ctx.send(f"Category '{identifier}' not found. Please select a valid category.")
+            await ctx.author.send(f"Category '{identifier}' not found. Please select a valid category.")
             return
 
     # Send category information
-    await ctx.send(f"**{category['name']}**: {category['description']}")
+    await ctx.author.send(f"**{category['name']}**: {category['description']}")
 
-# Command to list cards in a specific category by number or name
+# Command to list cards in a specific category by number or name (sent to private DM)
 @bot.command(name='list_cards_by_category')
 async def list_cards_by_category(ctx, identifier: str):
     # Handle identifier as number or name
@@ -69,22 +77,23 @@ async def list_cards_by_category(ctx, identifier: str):
         if 0 <= index < len(categories):
             category_name = categories[index]['name']
         else:
-            await ctx.send("Invalid category number. Please select a valid number from the list.")
+            await ctx.author.send("Invalid category number. Please select a valid number from the list.")
             return
     else:
         category_name = identifier.strip().lower()
 
     # Find cards in the selected category
-    cards_in_category = [card for card in group_works_deck if card['category'].strip().lower() == category_name.lower()]
+    cards_in_category = [f"{index + 1}. {card['name']}" for index, card in enumerate(group_works_deck) if card['category'].strip().lower() == category_name.lower()]
+    
     if not cards_in_category:
-        await ctx.send(f"No cards found in the '{category_name}' category.")
+        await ctx.author.send(f"No cards found in the '{category_name}' category.")
         return
 
-    # List cards with numbering
-    card_list = "\n".join([f"{index + 1}. {card['name']}" for index, card in enumerate(cards_in_category)])
-    await ctx.send(f"**Cards in '{category_name}'**:\n{card_list}")
+    # List cards with global numbering
+    card_list = "\n".join(cards_in_category)
+    await ctx.author.send(f"**Cards in '{category_name}'**:\n{card_list}")
 
-# Command to show a card's image and details without appreciation
+# Command to show a card's image and details without appreciation (sent to private DM)
 @bot.command(name='show_card')
 async def show_card(ctx, card_identifier: str):
     # If the identifier is a number, fetch by index
@@ -93,7 +102,7 @@ async def show_card(ctx, card_identifier: str):
         if 0 <= index < len(group_works_deck):
             card = group_works_deck[index]
         else:
-            await ctx.send("Invalid card number. Please select a valid number from the list.")
+            await ctx.author.send("Invalid card number. Please select a valid number from the list.")
             return
     # If the identifier is not a number, assume it's a card name
     else:
@@ -101,17 +110,17 @@ async def show_card(ctx, card_identifier: str):
         card = next((c for c in group_works_deck if c['name'].strip().lower() == normalized_card_name), None)
 
         if not card:
-            await ctx.send(f"Card '{card_identifier}' not found. Please select a valid card.")
+            await ctx.author.send(f"Card '{card_identifier}' not found. Please select a valid card.")
             return
 
     # Create embed to show the card details
     embed = discord.Embed(title=card['name'], description=card['heart'], color=0x00ff00)
     embed.set_image(url=card['pic'])
 
-    # Send the card details in an embed
-    await ctx.send(embed=embed)
+    # Send the card details in an embed (via DM)
+    await ctx.author.send(embed=embed)
 
-# Command to show card list and tag someone with appreciation
+# Command to show card list and tag someone with appreciation (public, in #appreciations)
 @bot.command(name='appreciate')
 async def appreciate(ctx, user: discord.Member, card_name: str, *, custom_message: str):
     print(f"Appreciation command received from {ctx.author}. Card: {card_name}, Message: {custom_message}")  # Debugging
@@ -133,11 +142,8 @@ async def appreciate(ctx, user: discord.Member, card_name: str, *, custom_messag
     # Fetch card data
     card_image = matched_card["pic"]
 
-    # Send appreciation message to general channel (or change back to #appreciations if it exists)
-    appreciation_channel = discord.utils.get(ctx.guild.channels, name="general")  # Posting in #general for testing
-    if appreciation_channel is None:
-        await ctx.send("General channel not found!")
-        return
+    # Get or create the #appreciations channel
+    appreciation_channel = await get_or_create_appreciations_channel(ctx.guild)
 
     # Create embed for the public appreciation message
     embed = discord.Embed(title="Appreciation!", description=f"{ctx.author.mention} appreciates {user.mention}", color=0x00ff00)
@@ -145,7 +151,7 @@ async def appreciate(ctx, user: discord.Member, card_name: str, *, custom_messag
     embed.add_field(name="Message", value=custom_message, inline=False)
     embed.set_image(url=card_image)  # URL of the image, as specified in your new format
 
-    # Send the appreciation in the #general channel
+    # Send the appreciation in the #appreciations channel
     await appreciation_channel.send(f"@everyone", embed=embed)
     
     # Send a direct message to the user
