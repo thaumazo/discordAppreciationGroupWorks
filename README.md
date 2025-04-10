@@ -1,5 +1,3 @@
----
-
 # Group Works Appreciation Bot
 
 **Group Works Appreciation Bot** is a Discord bot that allows users to interact with the **Group Works deck** by listing categories, selecting cards, and sending appreciation messages. Users can tag someone, select a card from the deck, and send a personalized appreciation message. The bot posts the appreciation publicly in a channel and sends a direct message to the appreciated user.
@@ -239,4 +237,3 @@ If you'd like to contribute to this project, feel free to fork the repository an
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
----
