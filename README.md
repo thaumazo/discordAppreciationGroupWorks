@@ -1,5 +1,3 @@
-Let's update the README to include the full list of commands and the recent changes. Here's the updated version of the README with explanations for all current bot commands:
-
 ---
 
 # Group Works Appreciation Bot
@@ -242,5 +240,3 @@ If you'd like to contribute to this project, feel free to fork the repository an
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-
-That's the complete **README** with the latest command list and detailed instructions. Let me know if you'd like any additional tweaks or updates!
